@@ -14,5 +14,5 @@ const range = parseInt(prompt('Enter a range: '));
 for(let i = 1; i <= range; i++) {
     const result = i * number;
     console.log(`${number} * ${i} = ${result}`);
-    document.write(`${i} * ${range} = ${result} <br />`)
+    document.write(`${i} * ${number} = ${result} <br />`)
 }
