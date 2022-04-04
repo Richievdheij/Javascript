@@ -1,20 +1,18 @@
 // begin hier je JavaScript commandos
 // 1. Maak een JavaScript applicatie die de tafel van 3 en 6 uitrekent.
 
-// Program to generate a multiplication table
+/* program to generate a multiplication table
+upto a range */
 
-// Take input from the user
+// Take number input from the user
 const number = parseInt(prompt('Enter an integer: '));
 
+// Take range input from the user
+const range = parseInt(prompt('Enter a range: '));
+
 // Creating a multiplication table
-for(let i = 1; i <= 10; i++) {
-
-    // Multiply i with number
+for(let i = 1; i <= range; i++) {
     const result = i * number;
-
-    // Display the result
     console.log(`${number} * ${i} = ${result}`);
+    document.write(`${i} * ${range} = ${result} <br />`)
 }
-
-
-
