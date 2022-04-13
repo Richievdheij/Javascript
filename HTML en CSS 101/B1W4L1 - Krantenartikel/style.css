@@ -1,6 +1,11 @@
 body { /* Background color */
-  background-color: rgb(109, 213, 234);
+  background-color: rgb(189, 222, 222);
   margin: 20px;
+}
+
+main {
+  width: 45%;
+  margin: auto;
 }
 
 h1 { /* Title placement */
@@ -8,39 +13,31 @@ h1 { /* Title placement */
 }
 
 img.vloot1 { /* First vloot1 image */
+  border: 3px solid;
   float: left;
-  width: 500px;
-  height: 308px;
+  width: 400px;
+  height: 258px;
+  margin: 4px;
 }
 
 p { /* First paragraph text */
   text-align: right, inherit;
-  width: 1100px;
-  padding: 0px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
 }
 
 img.vloot2 { /* Second vloot2 image */
+  border: 3px solid;
   float: right;
-  width: 500px;
-  height: 308px;
-}
-
-p.text2 { /* Second paragraph text */
-  text-align: left;
-  width: 300px;
-  padding: 0px;
-  margin: 0px;
+  width: 400px;
+  height: 297px;
+  margin: 4px;
 }
 
 img.vloot3 { /* Third vloot3 image */
+  border: 3px solid;
   float: left;
-  width: 500px;
-  height: 308px;
-}
-
-p.text3 { /* Third paragraph text */
-  text-align: right;
-  width: 300px;
-  padding: 0px;
-  margin: 0px;
+  width: 530px;
+  height: 238px;
+  margin: 4px;
 }
